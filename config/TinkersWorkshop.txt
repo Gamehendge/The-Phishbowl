@@ -10,6 +10,16 @@
 
 
 ####################
+# alpha behavior
+####################
+
+"alpha behavior" {
+    B:"Regenerate HP from food"=false
+    B:"Remove hunger"=false
+}
+
+
+####################
 # battlegear
 ####################
 
@@ -24,7 +34,9 @@ battlegear {
 ####################
 
 block {
+    I:Aggregator=3221
     I:"Air Tank"=3246
+    I:Antilight=3246
     I:"Birch Barricade"=1483
     I:"Blood Channel"=3189
     I:"Casting Channel"=3249
@@ -44,6 +56,7 @@ block {
     I:"Jungle Barricade"=1487
     I:Landmine=1470
     I:"Lava Tank"=1473
+    I:"Light Crystal"=3222
     I:"Liquid Blue Slime"=3235
     I:"Liquid Cow"=3217
     I:"Meat Block"=3242
@@ -54,14 +67,14 @@ block {
     I:"Molten Ardite"=3207
     I:"Molten Bronze"=3208
     I:"Molten Cobalt"=3206
-    I:"Molten Copper"=3203
-    I:"Molten Electrum"=3200
+    I:"Molten Copper"=4092
+    I:"Molten Electrum"=4095
     I:"Molten Emerald"=3216
     I:"Molten Ender"=3218
     I:"Molten Glass"=3214
-    I:"Molten Gold"=3202
+    I:"Molten Gold"=4093
     I:"Molten Invar"=3199
-    I:"Molten Iron"=3201
+    I:"Molten Iron"=4094
     I:"Molten Lead"=3196
     I:"Molten Manyullyn"=3210
     I:"Molten Nickel"=3197
@@ -70,7 +83,7 @@ block {
     I:"Molten Silver"=3195
     I:"Molten Steel"=3213
     I:"Molten Stone"=3215
-    I:"Molten Tin"=3204
+    I:"Molten Tin"=4091
     I:"Multi Brick"=1481
     I:"Multi Brick Fancy"=1467
     I:"Nether Lava Tank"=3186
@@ -113,6 +126,7 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Allow creation of endstone"=true
     B:"Craft Stencil Tables"=true
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
@@ -127,7 +141,7 @@ block {
     B:"Enable mod slime tools"=true
     B:"Enable mod stone tools"=true
     B:"Enable mod wooden tools"=true
-    B:"Keep hunger on death"=false
+    B:"Keep hunger on death"=true
     B:"Keep levels on death"=true
     B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
@@ -142,7 +156,7 @@ block {
 
 dimblacklist {
     # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
-    B:GenerateSlimeIslandInDim0Only=true
+    B:GenerateSlimeIslandInDim0Only=false
 
     # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
@@ -167,6 +181,10 @@ equipables {
     I:Exo-Legs=14118
     I:Gloves=14111
     I:"Heart Canister"=14105
+    I:"Heavy Boots"=14110
+    I:"Heavy Chestplate"=14108
+    I:"Heavy Helmet"=14106
+    I:"Heavy Pants"=14109
     I:Knapsack=14112
     I:"Wooden Boots"=14110
     I:"Wooden Chestplate"=14108
@@ -194,6 +212,15 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logging
+####################
+
+logging {
+    B:"Disable tool build messages"=false
 }
 
 
@@ -315,7 +342,7 @@ tools {
     I:Excavator=14069
     I:"Frying Pan"=14058
     I:Hammer=14070
-    I:Hoe=31691
+    I:Hoe=14054
     I:Longbow=14062
     I:Longsword=14056
     I:"Lumber Axe"=14061
@@ -383,7 +410,7 @@ worldgen {
     I:"Iron Surface Rarity"=400
     I:"Nether Ores Density"=8
     I:"Silver Bush Density"=1
-    I:"Slime Island Rarity"=1450
+    I:"Slime Island Rarity"=1430
     I:"Tin Bush Density"=2
     I:"Tin Bush Max Y"=40
     I:"Tin Bush Min Y"=0
@@ -401,15 +428,15 @@ worldgen {
 
 "worldgen disabler" {
     B:"Add Village Generation"=true
-    B:"Generate Aluminum"=true
-    B:"Generate Aluminum Bushes"=true
+    B:"Generate Aluminum"=false
+    B:"Generate Aluminum Bushes"=false
     B:"Generate Cobalt and Ardite"=true
     B:"Generate Copper"=false
     B:"Generate Copper Bushes"=true
     B:"Generate Essence Bushes"=true
     B:"Generate Gold Bushes"=true
     B:"Generate Iron Bushes"=true
-    B:"Generate Surface Aluminum"=true
+    B:"Generate Surface Aluminum"=false
     B:"Generate Surface Copper"=true
     B:"Generate Surface Gold"=true
     B:"Generate Surface Iron"=true
