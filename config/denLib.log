@@ -321,6 +321,7 @@ Fluid: deuterium
 Fluid: toxicwaste
 Ore: oreUranium
 Ore: ingotUranium
+Ore: dustUranium
 Ore: breederUranium
 Ore: blockRadioactive
 Ore: cellEmpty
@@ -500,18 +501,7 @@ Ore: cropClove
 Ore: cropApple
 Ore: cropHops
 Ore: seedWheat
-Ore: sludge
-Ore: oreSilver
-Ore: ingotSilver
-Ore: ingotLead
-Ore: blockSilver
-Ore: blockLead
-Ore: oreFzDarkIron
-Ore: ingotFzDarkIron
-Ore: blockFzDarkIron
-Ore: sulfuricAcid
-Ore: bottleSulfuricAcid
-Ore: aquaRegia
+Fluid: myst.ink.black
 Fluid: creosote
 Ore: nuggetIron
 Ore: nuggetSteel
@@ -528,6 +518,18 @@ Ore: oreDiamond
 Ore: oreEmerald
 Ore: oreLapis
 Ore: oreFirestone
+Ore: sludge
+Ore: oreSilver
+Ore: ingotSilver
+Ore: ingotLead
+Ore: blockSilver
+Ore: blockLead
+Ore: oreFzDarkIron
+Ore: ingotFzDarkIron
+Ore: blockFzDarkIron
+Ore: sulfuricAcid
+Ore: bottleSulfuricAcid
+Ore: aquaRegia
 Ore: dustCoal
 Ore: dustIron
 Ore: dustGold
@@ -717,6 +719,8 @@ Fluid: molten.eximite
 Fluid: molten.meutoite
 Fluid: mutagen
 Fluid: endergoo
+Ore: oreSulfur
+Ore: dustSulfur
 Ore: mb.magnet.level0
 Ore: mb.magnet.level0
 Ore: mb.magnet.level1
@@ -774,9 +778,9 @@ Ore: coralOrange
 Ore: coralPink
 Ore: coralPurple
 Ore: coralRed
-Fluid: myst.ink.black
 Ore: itemSuperconductor
 Fluid: fortron
+Fluid: xpjuice
 Found ConfigField creosote_fermentation
 Fluid: rc ethanol
 Fluid: jet fuel
@@ -915,6 +919,11 @@ Ore: dustEnderPearl
 Ore: dustGold
 Ore: dustIron
 Ore: dustWheat
+Ore: circuitBasic
+Ore: circuitAdvanced
+Ore: circuitElite
+Ore: motor
+Ore: wrench
 Ore: universalCable
 Ore: battery
 Ore: dustIron
@@ -975,11 +984,6 @@ Ore: dyeBrown
 Fluid: liquiddna
 Fluid: life essence
 Ore: oreCoal
-Ore: circuitBasic
-Ore: circuitAdvanced
-Ore: circuitElite
-Ore: motor
-Ore: wrench
 Ore: blockMarble
 Ore: blockLimestone
 Ore: blockConcrete
@@ -1699,27 +1703,6 @@ Ore: dustElectrumFlux
 Ore: ingotElectrumFlux
 Ore: nuggetElectrumFlux
 Ore: gemCrystalFlux
-Ore: circuitElite
-Ore: circuitBasic
-Ore: ingotCopper
-Ore: ingotCopper
-Ore: ingotBronze
-Ore: ingotBronze
-Ore: circuitAdvanced
-Ore: ingotSteel
-Ore: ingotSteel
-Ore: plateSteel
-Ore: wrench
-Ore: dustSteel
-Ore: motor
-Ore: oreCopper
-Ore: oreCopper
-Ore: oreTin
-Ore: oreTin
-Ore: plateBronze
-Ore: dustBronze
-Ore: ingotTin
-Ore: ingotTin
 Ore: glassWhite
 Ore: glassPaneWhite
 Ore: glassOrange
@@ -1763,7 +1746,6 @@ Ore: gemDiamond
 Ore: gemEmerald
 Ore: gemLapis
 Ore: beeComb
-Ore: fz.waterBucketLike
 Ore: fz.waterBucketLike
 Ore: fz.waterBucketLike
 Ore: fz.waterBucketLike
@@ -1859,6 +1841,6 @@ Ore: gemSunstone
 Ore: oreNaquadah
 Ore: naquadah
 Ore: ingotNaquadahAlloy
-Ore: stoneBricks
 Ore: cobblestone
 Ore: stone
+Ore: stoneBricks
