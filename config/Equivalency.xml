@@ -16,6 +16,8 @@
         <ic2Uranium>true</ic2Uranium>
         <!--Enables glowstone to redstone transmutation-->
         <glowredstone>true</glowredstone>
+        <!--Check for Updates-->
+        <updateCheck>true</updateCheck>
     </GeneralConfig>
     <Other/>
 </configuration>
