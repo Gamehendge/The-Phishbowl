@@ -4,7 +4,7 @@
     <ItemIDs/>
     <GeneralConfig>
         <!--Modifying this will change the emerald recipe. True = 8 Gold Ingot <-> 1 Emerald False = 1 Diamond + 3 Cactus Green -> 1 Emerald-->
-        <defaultEmeraldTransmute>true</defaultEmeraldTransmute>
+        <defaultEmeraldTransmute>false</defaultEmeraldTransmute>
         <!--Enabling this will allow you to craft Diamonds from Blaze rods-->
         <blazeTransmute>false</blazeTransmute>
         <!--Modifying this will change the Iron to Certus Quartz recipeTrue = 1 Certus Quartz <-> 2 Iron || False = 1 Certus Quartz <-> 2 Iron Blocks-->
@@ -17,7 +17,7 @@
         <!--Enables glowstone to redstone transmutation-->
         <glowredstone>true</glowredstone>
         <!--Check for Updates-->
-        <updateCheck>true</updateCheck>
+        <updateCheck>false</updateCheck>
     </GeneralConfig>
     <Other/>
 </configuration>
