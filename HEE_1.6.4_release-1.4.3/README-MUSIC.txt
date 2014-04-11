@@ -1,1 +1,0 @@
-Visit the wiki for music information and tutorial on how to add new music: http://hardcore-enderdragon.wikia.com/wiki/Battle_Music
